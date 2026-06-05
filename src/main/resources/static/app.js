@@ -42,8 +42,7 @@ function showWeather(city, weather) {
   cName.innerText = city;
   temp.innerText = weather.temperature_2m + " °C";
   wind.innerText = weather.wind_speed_10m + " km/h";
-  weatherCode.innerText = weather.weather_code;
-
+  
   weatherBox.style.display = "block";
 }
 
