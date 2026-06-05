@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Finder</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
 
 </head>
 
@@ -15,23 +15,23 @@
     <h1>Weather Finder</h1>
 
     <div>
-        <input id="cityInput" type="text" placeholder="Enter city name">
-        <button id="viewCityBtn">View City</button>
+        <input id="cInput" type="text" placeholder="Enter city name">
+        <button id="vcBtn">View City</button>
     </div>
 
     <p id="loading" style="display:none;">Loading...</p>
     <p id="error" style="display:none;"></p>
 
     <div id="weatherBox" style="display:none;">
-        <h2 id="cityName"></h2>
-        <p>Temperature: <span id="temperature"></span></p>
+        <h2 id="cName"></h2>
+        <p>Temperature: <span id="temp"></span></p>
         <p>Wind: <span id="wind"></span></p>
         <p>Weather Code: <span id="weatherCode"></span></p>
     </div>
 
     <h2>Top 10 Cities in Canada</h2>
-    <ul id="cityList"></ul>
-
+    <ul id="cList"></ul>
+<script src="app.js"></script>
 
 </body>
 
