@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  
+}
+
+h1 {
+  color: #222;
+}
+
+input {
+  padding: 8px;
+  width: 220px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#weatherBox {
+  
+  border: 1px solid #cccccc14;
+  padding: 5px;
+  margin-top: 10px;
+  width: 300px;
+}
